@@ -1,7 +1,6 @@
 .DS_Store
 
 # tex output files
-.projectNotes.aux
-.projectNotes.log
-.projectNotes.synctex.gz
-
+*.aux
+*.log
+*.synctex.gz
