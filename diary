@@ -1,18 +1,16 @@
-name
-brand
-price
-provider
-weight
+29/5 2014
+With some perspective I have now reached the conclusion that there will be several revisions of the hardware. If I spend too much time trying to find the best possible parts to conform with all my possible future plans, then there is a big risk that nothing will ever happen. The best way to understand what kind of parts I need (and important charateristics of them) is to simply take a leap of faith and just build a first version. The key insight is that it doesn't even need to fly as long as I learn something from making it. The best way of learning is simply by doing.
 
+To this end i placed an order on most of the hardware from the swedish online store http://www.rcflight.se
+Exactly what was ordered will be documented when the package arrives, as it will be easier to describe things once I have them in my hand.
+I have decided to use a Raspberry pie as CPU, as there are linux kernels available on that platform.
 
+4/5 2014 
+Today I continued some litterature studies on the subject. I tried to focus on narrowing down some components on a potential shop list.
+Information needed from each part:
+name, brand, price, provider, weight
 
+Parts needed (as far as i know today):
+Engine, Frame, cpu, accelerometer, gyro, esc, battery, propeller
 
-
-engine
-frame
-cpu
-accelerometer
-gyro
-esc
-battery
-propeller
+I introduced a new file, "buzzwords", which is intended as a glossary/wiki. The purpose is twofold. Firstly, as with most technical topics there are always abbreviations and very specific nomenclature. As this project is likely to stretch over a long period of time it can be nice to have a lookup dokument for all these things. Secondly, if I ever want to share my work and help other beginners it is a nice way to pinpoint things that are not obvious and must be explained.

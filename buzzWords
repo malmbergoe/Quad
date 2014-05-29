@@ -13,3 +13,6 @@ slowfly:
 
 pusher:
 	propeller with oposite rotation direction. this is needed so that the multicopter does not start to yaw.
+
+CW/CCW:
+	propeller rotational direction. CW = ClockWise CCW = CounterClockWise
