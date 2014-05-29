@@ -1,0 +1,15 @@
+**propeller
+slowfly:
+	SF-propellers are for low RPM, and not too much power. 
+	It is said in a post that max RPM for a 10" SF-propeller is 6500, and a 10" "E"-propeller have max 19000RPM
+
+	everyone is using SF out there but i think is because of the lift they give and in multirotors speed is not so much a deal
+
+	One thing I would add is the contrast or comparision to cheap Slow-Fly and carbon fiber.
+
+	The advantages to SF is they are dirt cheap, so using them when first learning is a big plus, because you will probably break a few. They also are relatively flexible so they have the disadvantage of inherent vibration when they are subjected to out-of-plane forces, i.e., roll, pitch, hard throttle. But being flexible, they are also forgiving to the "noob" accidently putting their fingers in the spinning props.
+
+	In contrast carbon fiber props are much more stiff so they are more efficient, losing less energy to flex. Also they input less vibration into the system from that reduced flex. On the negative side, they are ~5-8X more expensive and will slice like scalpels if there's a 'finger accident'.
+
+pusher:
+	propeller with oposite rotation direction. this is needed so that the multicopter does not start to yaw.
