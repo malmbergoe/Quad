@@ -16,3 +16,12 @@ pusher:
 
 CW/CCW:
 	propeller rotational direction. CW = ClockWise CCW = CounterClockWise
+
+
+**embedded linux development
+build: 
+	The build system is the one on which you build your toolchain.
+host
+	The host system is the one on which you host your toolchain
+target
+	The target system is the one for which your cross toolchain will produce binaries.
