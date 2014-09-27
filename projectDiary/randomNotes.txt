@@ -1,0 +1,24 @@
+
+
+
+project
+	setup git
+	specify long term goals
+
+hardware
+	specify hardware
+	assemble hardware
+	calibrate hardware
+	create test of hardware
+	approved testing
+	documentation on preformance and possible future adjustments
+
+development environment
+	setup target
+	setup host
+	setup proper procedure host -> target
+	verify proper behaviour
+
+software
+	agile development...
+	automate calibration of hardware

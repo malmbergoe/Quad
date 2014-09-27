@@ -1,0 +1,102 @@
+\documentclass[12pt]{article}
+\usepackage[swedish]{babel}
+\usepackage[applemac]{inputenc}
+
+\usepackage{full page} %makes the allover margin spaces smaller
+
+
+% F�r att f� grafik att fungera.
+\usepackage{epsf}
+\usepackage{psfrag}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\usepackage{graphicx}          
+%%%%
+
+\usepackage{float}
+\floatstyle{boxed}
+\newfloat{codebox}{thp}{lop}
+\floatname{codebox}{Program}
+
+\title{\center Quadracopter project\\ Report phase 1}			% used by \maketitle
+
+\author{ Mats Malmberg, 860802-0338, matsmalmberg86@gmail.com}
+
+\begin{document}
+\maketitle			% automatic title!
+
+\section{Summary}
+Phase 1 aims att getting started with the development process. Thus most of the goals aims at setting up a proper system so that future phases can focus on programming and control. 
+\begin{itemize}
+\item[] \textbf{Project}
+	\subitem{-} Setup Git (done)
+	\subitem{-} Specify long term goals (done)
+	
+\item[] \textbf{Hardware}
+	\subitem{-} Specify hardware(ongoing)
+	\subitem{-} Assemble hardware
+	\subitem{-} Calibrate hardware
+	\subitem{-} Create test of hardware
+	\subitem{-} Approved testing
+	\subitem{-} Documentation on preformance and possible future adjustments
+
+\item[] \textbf{Development environment}
+	\subitem{-} Setup target (ongoing)
+	\subitem{-} Setup host (ongoing)
+	\subitem{-} Setup proper procedure host -> target
+	\subitem{-} Verify proper behaviour
+
+\item[] \textbf{Software}
+	\subitem{-} Agile development...
+	\subitem{-} Automate calibration of hardware
+\end{itemize}
+
+\section{Project}
+	\subsection{Setup Git}
+	A public repository is setup on git hub. To clone the repo use the following 
+	https clone url:
+	\begin{codebox}
+		\emph{https://github.com/malmbergoe/Quad.git}
+	\end{codebox}
+	Git is intentionally not setup on the target machine, as the repository will contain several irrelevant files for the target. Instead the target will be up to date by using an crossbuilding toolchain on the host.
+
+	\subsection{Specify long term goals}
+	Long term goals in this context is to figure out what the intended use of the quadracopter my be, as this affects the choice of hardware etc. The following list defines some desired features/capabilities 
+\begin{enumerate}
+\item Being able to fly horizontaly through door openings
+\item Being able to manouver with an external load of 2 kg
+\item Fast wireless communication
+\item Possibility to extend unit with a robotic arm
+\item Possibility to extend unit with autonomous navigation and manouverability
+\item Awesome looks
+\item Speaker
+\item Possibility to extend unit with computer vision
+\item Operating on embedded linux
+\item Usb port
+\item Reasonable air time
+\item Easy to exchange battery pack
+\end{enumerate}
+This list is not final, but is intended to give a general direction when choosing hardware etc.
+
+\section{Hardware}
+	\subsection{Specify hardware}
+	fixed: raspberry pie, motors, props, ECU's, battery\\
+	pending: accelerometer, gyro, frame, charger
+	\subsection{Assemble hardware}
+	\subsection{Calibrate hardware}
+	\subsection{Create test of hardware}
+	\subsection{Approved testing}
+	\subsection{Documentation on performance and possible future adjustments}
+\section{Development environment}
+	\subsection{Setup target}
+	\subsection{Setup host}
+	\subsection{Setup proper procedure host -> target}
+	\subsection{Verify proper behaviour}
+\section{Software}
+	\subsection{Agile development...}
+	\subsection{Automate calibration of hardware}
+
+\section{Conclusions and future work}
+
+
+\end{document}
