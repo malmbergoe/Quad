@@ -1,6 +1,0 @@
-Milestones (MS)
-MS1 - technical specification on hardware (based on soft constraints), along with suppliers
-MS2 - assembled hardware, ready to install operative system
-MS3 - Create an embedded linux kernel, that complies with the hardware
-MS4 - implented test software that can access and control all necessary hardware in every intended way
-MS4 - implement control software to hover in place
